@@ -1,0 +1,87 @@
+body{
+    font-family:Verdana;
+}
+
+p{
+    font-size: larger;
+}
+
+.cabecera{
+    height: 80px;
+    margin-top: 60px;
+    text-align:center;
+}
+
+table{
+    padding: 5px;
+    background-color: #bdf2ee ;
+    border-radius: 6px;
+    border: 2px solid #3e48ad;
+}
+
+td, th{
+    padding-left: 15px;
+    text-align:left;
+}
+
+th{
+    margin-bottom: 3px;
+    border-bottom: 2px solid navy;
+}
+
+td{
+    margin-bottom: 1px;
+    border-bottom: 1px solid navy;
+}
+
+tr:last-child td{
+    border-bottom: 0px;
+}
+
+ul {
+    padding: 0;
+    width: 100%;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    width: 20%;
+    margin-right: 0.625%;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 3;
+    color: whitesmoke;
+}
+
+li:last-child a {
+    margin-right: 0;
+}
+
+a:link, a:visited, a:focus {
+    background: #0b93d5;
+}
+
+a:hover {
+    background: #82c2bd;
+    color: black;
+}
+
+a:active {
+    background: navy;
+    color: whitesmoke;
+}
+
+select, option, input, label{
+    font-size: 18px;
+}
+
+input{
+    margin-left: 20px;
+}
